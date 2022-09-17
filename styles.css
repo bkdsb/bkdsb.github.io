@@ -84,12 +84,19 @@ section ul {
 
 
 .games-list img {
-  width: 90px;
+  height: 90px;
   border-radius: 8px;
+  padding: 20px;
 }
 
 .channel-list img {
-  border-radius: 50%; 
-  width: 70px;
-  border: 1px solid #443E54;
+  height: 90px;
+  border-radius: 8px; 
+  padding: 20px;
+}
+
+.social-list img {
+  height: 90px;
+  border-radius: 8px; 
+  padding: 20px;
 }
