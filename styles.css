@@ -83,20 +83,9 @@ section ul {
 }
 
 
-.games-list img {
-  height: 90px;
+.redes-list img {
+  height: 60px;
   border-radius: 8px;
-  padding: 20px;
+  padding: 20px 20px 0px 0px;
 }
 
-.channel-list img {
-  height: 90px;
-  border-radius: 8px; 
-  padding: 20px;
-}
-
-.social-list img {
-  height: 90px;
-  border-radius: 8px; 
-  padding: 20px;
-}
