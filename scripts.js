@@ -1,6 +1,6 @@
 const spinningJs = [
-  { transform: 'rotate(0) scale(1)'},
-  {transform: 'rotate(-30deg) scale(0)'}
+  { transform: 'rotate(0) scale(1)' },
+  { transform: 'rotate(-30deg) scale(0)' }
 ]
 
 const spinningTime = {
@@ -14,7 +14,9 @@ const javaScriptCursor = document.querySelector('.javaScript').style.cursor = "p
 
 
 javaScript.addEventListener('click', () => {
-  javaScript.animate(spinningJs, spinningTime);
-  }
-  );
- 
+  javaScript.animate(spinningJs, spinningTime)
+})
+
+
+
+

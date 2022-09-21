@@ -35,7 +35,7 @@ header div {
 
   display: flex;
   padding: 4px;
-  
+
   transition: transform .3s;
 }
 
@@ -102,6 +102,10 @@ section ul li:hover {
   height: 30px;
 }
 
+img {
+  border-radius: 4px;
+}
+
 /* Animation */
 
 header div {
@@ -126,24 +130,37 @@ main section:nth-child(3) {
 
 @keyframes fromTop {
   from {
-      opacity: 0;
-      transform: translateY(-30px)
+    opacity: 0;
+    transform: translateY(-30px)
   }
 
   to {
-      opacity: 1;
-      transform: translateY(0)
+    opacity: 1;
+    transform: translateY(0)
   }
 }
 
 @keyframes fromBottom {
   from {
-      opacity: 0;
-      transform: translateY(30px)
+    opacity: 0;
+    transform: translateY(30px)
   }
 
   to {
-      opacity: 1;
-      transform: translateY(0)
+    opacity: 1;
+    transform: translateY(0)
   }
+}
+
+.buttonJS {
+  display: none;
+  transition: 1s;
+}
+
+.buttonJS:hover {
+  display: block;
+}
+
+.javaScript {
+  display: block;
 }
