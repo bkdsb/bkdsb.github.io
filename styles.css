@@ -2,10 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
+
+/* Tinha desativado para testar algo, (não deu certo e também não é uma boa prática de acessibilidade)
+html {
+  cursor: none;
+} */
 
 ul {
   list-style: none;
+  justify-content: center;
 }
 
 body {
@@ -51,8 +58,7 @@ header div img {
 main {
   max-width: 580px;
   width: 90%;
-  margin: 32px auto;
-
+  margin: 24px auto;
   display: grid;
   gap: 24px;
 }
@@ -66,13 +72,14 @@ section {
 
 section div {
   background-color: #2A2634;
-  padding: 32px;
-  padding-top: 24px;
+  padding: 8px;
   border-radius: 8px;
 }
 
 section h2 {
   letter-spacing: -0.47px;
+  font-weight: lighter;
+  padding: 8px;
 }
 
 section p {
@@ -152,6 +159,8 @@ main section:nth-child(3) {
   }
 }
 
+/* teste que falhou sobre a seta.
+
 .buttonJS {
   display: none;
   transition: 1s;
@@ -159,8 +168,19 @@ main section:nth-child(3) {
 
 .buttonJS:hover {
   display: block;
-}
+} */
 
 .javaScript {
-  display: block;
+  position: relative;
+  transform-style: preserve-3d;
 }
+
+/* Teste de um círculo no lugar da seta, com algum bug, desativada.
+ #circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #121214;
+  background: #43E7AD;
+  position: absolute;
+} */

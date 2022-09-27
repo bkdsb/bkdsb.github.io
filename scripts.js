@@ -18,5 +18,14 @@ javaScript.addEventListener('click', () => {
 })
 
 
+// ##################################################
+// Teste de funcionalidade de alteração da seta para um circle, algum bug no scroll, desativada.
+// const circle = document.querySelector('#circle');
+// function followMouse(event){
+//   circle.style.top = event.y + 'px';
+//   circle.style.left = event.x + 'px';
+// }
+// window.addEventListener('mousemove', followMouse);
+//##################################################
 
 
